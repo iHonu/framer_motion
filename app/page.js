@@ -1,6 +1,8 @@
 import AnimationControls from '@/components/AnimationControls';
 import BasicOfMotion from '@/components/BasicOfMotion';
 import Gestures from '@/components/Gestures';
+import ScrollAnimations from '@/components/ScrollAnimations';
+import ViewBasedAnimation from '@/components/ViewBasedAnimation';
 import Image from 'next/image';
 
 export default function Home() {
@@ -8,7 +10,9 @@ export default function Home() {
     <main>
       {/* <BasicOfMotion /> */}
       {/* <Gestures /> */}
-      <AnimationControls />
+      {/* <AnimationControls /> */}
+      {/* <ViewBasedAnimation /> */}
+      <ScrollAnimations />
     </main>
   );
 }
